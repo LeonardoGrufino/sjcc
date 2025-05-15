@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#formulario-comentario {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 25px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; 
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 18px; 
+}
+
+.required {
+    color: #e74c3c;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 15px; 
+    border: 2px solid #3498db; 
+    border-radius: 6px; 
+    font-size: 16px;
+    box-sizing: border-box;
+    min-height: 200px; 
+    resize: vertical;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+textarea:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.3); 
+    outline: none;
+}
+
+
+select {
+    height: 40px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2); 
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 25px; 
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.mensagem {
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#mensagem-sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #c3e6cb;
+}
